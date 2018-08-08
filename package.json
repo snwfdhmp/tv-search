@@ -11,6 +11,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "express": "^4.16.3",
+    "body-parser": "^4.16.3",
     "jquery": "^3.3.1",
     "torrent-search-api": "^1.1.5"
   }

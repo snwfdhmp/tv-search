@@ -4,16 +4,33 @@ Simple API that searches for you torrents for a given tv show.
 
 ## Getting started
 
-1. Download the project and install dependencies
+### Run from sources
+
+#### 1. Download the project and install dependencies
 
 ```bash
 $ git clone https://github.com/snwfdhmp/tv-search && cd tv-search && npm i
 ```
 
-2. Run
+#### 2. Run
 
 ```bash
 $ npx babel-node app.js
+```
+
+### Run in a container
+
+#### 1. Pull the image
+
+```bash
+$ docker pull snwfdhmp1/tv-search:v1.0.0
+```
+
+
+#### 2. Start a container
+
+```bash
+$ docker run --name tv-search -d -p 8080:8080 snwfdhmp1/tv-search
 ```
 
 ## Search for a torrent
