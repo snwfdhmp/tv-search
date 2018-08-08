@@ -21,7 +21,11 @@ $ npx babel-node app.js
 > showId, seasonNumber, and episodeNumber are taken from themoviedb.org API
 > In this case, the show is "Game of Thrones", season 7, episode 7
 
+### Endpoint
+
 `POST localhost:8080/search`
+
+### Body
 
 ```json
 {
@@ -30,8 +34,7 @@ $ npx babel-node app.js
 	"episodeNumber":7
 }
 ```
-
-Response
+### Response
 
 ```json
 [
